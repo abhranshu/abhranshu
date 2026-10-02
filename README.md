@@ -186,10 +186,11 @@ A data analytics project focused on understanding food waste through data proces
 ## 🐍 Contribution Activity
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/abhranshu/github-snake/output/github-snake.svg"
-    alt="GitHub contribution snake"
-  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhranshu/abhranshu/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abhranshu/abhranshu/output/github-snake.svg">
+    <img src="https://raw.githubusercontent.com/abhranshu/abhranshu/output/github-snake.svg" alt="GitHub contribution snake animation">
+  </picture>
 </p>
 
 ---
