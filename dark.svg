@@ -19,15 +19,26 @@
   </defs>
 
   <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1010" cy="75" r="120" fill="#4f46e5" opacity=".12" filter="url(#glow)"/>
-  <circle cx="1120" cy="285" r="150" fill="#06b6d4" opacity=".08" filter="url(#glow)"/>
+  <circle cx="1010" cy="75" r="120" fill="#4f46e5" opacity=".12" filter="url(#glow)">
+    <animate attributeName="r" values="110;135;110" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".08;.16;.08" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1120" cy="285" r="150" fill="#06b6d4" opacity=".08" filter="url(#glow)">
+    <animate attributeName="r" values="140;165;140" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".05;.12;.05" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
   <g opacity=".14" stroke="#94a3b8">
     <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200"/>
     <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
   </g>
 
-  <rect x="70" y="62" width="7" height="220" rx="3.5" fill="url(#accent)"/>
+  <rect x="70" y="62" width="7" height="220" rx="3.5" fill="url(#accent)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="0" cy="0" r="4" fill="#67e8f9">
+    <animateMotion path="M70 70 L1140 70 L1140 300 L70 300 Z" dur="12s" repeatCount="indefinite"/>
+  </circle>
 
   <text x="112" y="118" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="5">DATA SCIENCE · AI · ENGINEERING</text>
   <text x="112" y="181" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800">ABHRANSHU AKASH</text>
