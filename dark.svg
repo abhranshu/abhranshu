@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Abhranshu Akash — Data Science and AI</title>
+  <desc id="desc">A dark technical hero banner for Abhranshu Akash.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="55%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="75" r="120" fill="#4f46e5" opacity=".12" filter="url(#glow)"/>
+  <circle cx="1120" cy="285" r="150" fill="#06b6d4" opacity=".08" filter="url(#glow)"/>
+
+  <g opacity=".14" stroke="#94a3b8">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+  </g>
+
+  <rect x="70" y="62" width="7" height="220" rx="3.5" fill="url(#accent)"/>
+
+  <text x="112" y="118" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="5">DATA SCIENCE · AI · ENGINEERING</text>
+  <text x="112" y="181" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800">ABHRANSHU AKASH</text>
+  <text x="114" y="225" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Building intelligent systems from data → model → product.</text>
+
+  <g transform="translate(114 265)">
+    <rect width="112" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="56" y="25" text-anchor="middle" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PYTHON</text>
+    <rect x="126" width="96" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="174" y="25" text-anchor="middle" fill="#a5b4fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">AI / ML</text>
+    <rect x="236" width="90" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="281" y="25" text-anchor="middle" fill="#c4b5fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">AWS</text>
+    <rect x="340" width="112" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="396" y="25" text-anchor="middle" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">FULL-STACK</text>
+  </g>
+</svg>
